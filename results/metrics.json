@@ -1,0 +1,133 @@
+{
+  "naive": {
+    "LogisticRegression": {
+      "cv_f1_mean": 0.9924,
+      "cv_f1_std": 0.0009,
+      "accuracy": 0.9921,
+      "precision_macro": 0.992,
+      "recall_macro": 0.9922,
+      "f1_macro": 0.9921,
+      "precision_per_class": [
+        0.9942,
+        0.9898
+      ],
+      "recall_per_class": [
+        0.9906,
+        0.9937
+      ],
+      "f1_per_class": [
+        0.9924,
+        0.9917
+      ],
+      "confusion_matrix_file": "cm_naive_logisticregression.png"
+    },
+    "LinearSVC": {
+      "cv_f1_mean": 0.9972,
+      "cv_f1_std": 0.0003,
+      "accuracy": 0.9974,
+      "precision_macro": 0.9974,
+      "recall_macro": 0.9974,
+      "f1_macro": 0.9974,
+      "precision_per_class": [
+        0.9979,
+        0.997
+      ],
+      "recall_per_class": [
+        0.9972,
+        0.9977
+      ],
+      "f1_per_class": [
+        0.9976,
+        0.9973
+      ],
+      "confusion_matrix_file": "cm_naive_linearsvc.png"
+    },
+    "MultinomialNB": {
+      "cv_f1_mean": 0.9647,
+      "cv_f1_std": 0.0019,
+      "accuracy": 0.9661,
+      "precision_macro": 0.9661,
+      "recall_macro": 0.966,
+      "f1_macro": 0.9661,
+      "precision_per_class": [
+        0.9664,
+        0.9658
+      ],
+      "recall_per_class": [
+        0.9689,
+        0.9631
+      ],
+      "f1_per_class": [
+        0.9677,
+        0.9645
+      ],
+      "confusion_matrix_file": "cm_naive_multinomialnb.png"
+    }
+  },
+  "leak_free": {
+    "LogisticRegression": {
+      "cv_f1_mean": 0.9804,
+      "cv_f1_std": 0.0014,
+      "accuracy": 0.979,
+      "precision_macro": 0.9794,
+      "recall_macro": 0.9784,
+      "f1_macro": 0.9789,
+      "precision_per_class": [
+        0.9833,
+        0.9754
+      ],
+      "recall_per_class": [
+        0.9709,
+        0.9859
+      ],
+      "f1_per_class": [
+        0.9771,
+        0.9806
+      ],
+      "confusion_matrix_file": "cm_leak_free_logisticregression.png"
+    },
+    "LinearSVC": {
+      "cv_f1_mean": 0.9878,
+      "cv_f1_std": 0.0008,
+      "accuracy": 0.9884,
+      "precision_macro": 0.9886,
+      "recall_macro": 0.9881,
+      "f1_macro": 0.9883,
+      "precision_per_class": [
+        0.9907,
+        0.9865
+      ],
+      "recall_per_class": [
+        0.9841,
+        0.9921
+      ],
+      "f1_per_class": [
+        0.9874,
+        0.9893
+      ],
+      "confusion_matrix_file": "cm_leak_free_linearsvc.png"
+    },
+    "MultinomialNB": {
+      "cv_f1_mean": 0.9519,
+      "cv_f1_std": 0.003,
+      "accuracy": 0.9524,
+      "precision_macro": 0.9518,
+      "recall_macro": 0.9524,
+      "f1_macro": 0.9521,
+      "precision_per_class": [
+        0.9441,
+        0.9595
+      ],
+      "recall_per_class": [
+        0.9531,
+        0.9517
+      ],
+      "f1_per_class": [
+        0.9486,
+        0.9556
+      ],
+      "confusion_matrix_file": "cm_leak_free_multinomialnb.png"
+    },
+    "_best_model": "LinearSVC"
+  }
+}

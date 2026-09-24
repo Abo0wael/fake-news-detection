@@ -1,0 +1,28 @@
+# Data (raw, cleaned, and saved train/test splits)
+data/*.csv
+data/*.npz
+
+# Models
+models/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+*.env
+
+# IDE / tools
+.vscode/
+.idea/
+.claude/
+
+# OS
+Thumbs.db
+.DS_Store

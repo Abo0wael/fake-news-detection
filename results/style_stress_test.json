@@ -1,0 +1,204 @@
+{
+  "leak_free": {
+    "accuracy": 0.979,
+    "f1_macro": 0.9789,
+    "top_fake_features": [
+      [
+        "gop",
+        -6.9735
+      ],
+      [
+        "watch",
+        -6.642
+      ],
+      [
+        "obama",
+        -5.6323
+      ],
+      [
+        "even",
+        -5.547
+      ],
+      [
+        "president trump",
+        -5.4612
+      ],
+      [
+        "america",
+        -5.1697
+      ],
+      [
+        "hillary",
+        -4.7497
+      ],
+      [
+        "like",
+        -4.6209
+      ],
+      [
+        "president obama",
+        -4.6011
+      ],
+      [
+        "american",
+        -4.4262
+      ]
+    ],
+    "top_real_features": [
+      [
+        "said",
+        15.6935
+      ],
+      [
+        "president donald",
+        7.3685
+      ],
+      [
+        "wednesday",
+        6.3981
+      ],
+      [
+        "tuesday",
+        5.9947
+      ],
+      [
+        "thursday",
+        5.6693
+      ],
+      [
+        "friday",
+        5.1374
+      ],
+      [
+        "monday",
+        4.8829
+      ],
+      [
+        "nov",
+        4.4245
+      ],
+      [
+        "said statement",
+        4.2409
+      ],
+      [
+        "minister",
+        4.2018
+      ]
+    ]
+  },
+  "style_stripped": {
+    "accuracy": 0.9751,
+    "f1_macro": 0.975,
+    "top_fake_features": [
+      [
+        "gop",
+        -7.5851
+      ],
+      [
+        "watch",
+        -7.3368
+      ],
+      [
+        "even",
+        -6.1068
+      ],
+      [
+        "president trump",
+        -5.9325
+      ],
+      [
+        "obama",
+        -5.8194
+      ],
+      [
+        "america",
+        -5.6925
+      ],
+      [
+        "hillary",
+        -5.2298
+      ],
+      [
+        "president obama",
+        -5.0537
+      ],
+      [
+        "like",
+        -4.992
+      ],
+      [
+        "breaking",
+        -4.7379
+      ]
+    ],
+    "top_real_features": [
+      [
+        "president donald",
+        8.6392
+      ],
+      [
+        "representative",
+        4.6235
+      ],
+      [
+        "minister",
+        4.5512
+      ],
+      [
+        "president barack",
+        4.3802
+      ],
+      [
+        "presidential",
+        4.3545
+      ],
+      [
+        "democratic",
+        4.0222
+      ],
+      [
+        "comment",
+        3.7241
+      ],
+      [
+        "president",
+        3.6368
+      ],
+      [
+        "rival",
+        3.6247
+      ],
+      [
+        "republican presidential",
+        3.3828
+      ]
+    ]
+  },
+  "removed_tokens": [
+    "aug",
+    "dec",
+    "feb",
+    "friday",
+    "jan",
+    "monday",
+    "nov",
+    "oct",
+    "reporter",
+    "said",
+    "saturday",
+    "say",
+    "saying",
+    "sept",
+    "spokesman",
+    "spokesperson",
+    "spokeswoman",
+    "statement",
+    "sunday",
+    "tell",
+    "thursday",
+    "told",
+    "tuesday",
+    "wednesday"
+  ]
+}
