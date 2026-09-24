@@ -301,7 +301,6 @@ fake-news-detection/
 ├── app/app.py                   # Gradio demo (reuses src/clean.py)
 ├── data/                        # Fake.csv, True.csv + generated files (git-ignored)
 ├── models/                      # best_model.joblib (git-ignored)
-├── notebooks/
 ├── results/
 │   ├── figures/                 # EDA, confusion matrices, top features, word clouds
 │   ├── eda_summary.md
